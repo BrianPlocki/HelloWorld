@@ -19,6 +19,7 @@ public class AndroidSampleActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_android_sample, menu);
+        // this should show up as a change!
         return true;
     }
 
@@ -31,6 +32,8 @@ public class AndroidSampleActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            // another change!
             return true;
         }
 
